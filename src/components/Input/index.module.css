@@ -1,0 +1,21 @@
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input input {
+  border: none; /* Removes the default border */
+  border-radius: 10px 10px 25px 25px;
+  padding: 20px 40px;
+  width: 50%;
+  margin-top: 5%;
+  font-size: 26px;
+  background-color: rgba(174, 180, 185, 0.575);
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.685);
+  margin-bottom: 10%;
+}
+​ input:focus {
+  outline: none; /* Removes the border when the input is clicked */
+}
